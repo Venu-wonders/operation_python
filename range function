@@ -1,0 +1,14 @@
+# Range function
+
+# range ( start , end , jump ) or range ( end )
+
+print ( list (range (0,5)) ) #list gives the range in the range function
+# start ( 0 ) and jump is ( 1 )
+
+
+print (list (range ( 1 , 5)) )  # start ( 1 ) and jum is ( 1 )
+
+
+print (list ( range ( 1, 10, 2 ) ) ) #start (1)  , end (10) and jump is (2)
+
+print ( list ( range ( 100, 1 , -2 ) ), end= " " )
